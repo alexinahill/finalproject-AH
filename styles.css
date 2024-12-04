@@ -1,0 +1,62 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #ffeefc;
+    color: #444;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .banner {
+    background-color: #ffccf2;
+    padding: 20px;
+    font-size: 1.5em;
+    color: #ff5fa2;
+  }
+  
+  form {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    border: 2px solid #ffb3d9;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin: 5px auto;
+    border: 1px solid #ffcce6;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffa3b7;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff6e92;
+  }
+  
+  .day-plan {
+    margin-top: 15px;
+  }
+  
