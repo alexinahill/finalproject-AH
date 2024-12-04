@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB-115 Final Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="banner">
+    🌸 WEB-115 Final Project 🌸 <br>
+    Name: Alexina Hill | Course: WEB-115 | Section: 0003 <br>
+    Build Your Meal Plan 🍱✨
+  </header>
+  <main>
+    <form id="mealPlanForm">
+      <section class="personal-info">
+        <h2>Tell us about you! 📝</h2>
+        <label for="name">Your Name 🌟:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <label for="email">Your Email ✉️:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <label for="goal">Your Weekly Goal 🎯:</label>
+        <input type="text" id="goal" placeholder="E.g., Eat more veggies!" required>
+      </section>
+      <section class="meal-plan">
+        <h2>Plan Your Meals 🍳</h2>
+        <p>Enter your meals for the week:</p>
+        <div id="mealDays">
+        </div>
+      </section>
+      <div class="actions">
+        <button type="button" id="generatePlan">✨ Create My Meal Plan ✨</button>
+        <button type="reset" id="clearPlan">🗑️ Clear</button>
+        <button type="button" id="printPlan">🖨️ Print</button>
+      </div>
+    </form>
+  </main>
+  <script src="projectJS.js"></script>
+</body>
+</html>
